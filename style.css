@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    padding: 10% 0 0 0;
+}
+
+.pfp {
+    float: right;
+}
+
+.text {
+    padding: 0 25% 0 0;
+}
+
+.projects-experience {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume {
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+}
