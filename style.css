@@ -27,6 +27,10 @@ p {
     background-color: #88aabf;
 }
 
+.intro {
+    padding: 3% 3%;
+}
+
 .pfp {
     float: right;
 }
