@@ -44,6 +44,10 @@ p {
     background-color: #88aabf;
 }
 
+.images-project {
+    mask-image: url(images/tempfiller.jpg);
+}
+
 .resume {
     text-align: center;
 }
@@ -54,9 +58,11 @@ p {
 }
 
 .projcol1 {
-    float:left;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .projcol2 {
-    float:right;
+    margin-right: auto;
+    margin-left: auto;
 }
