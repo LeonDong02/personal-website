@@ -3,13 +3,28 @@ body {
     color: #313638;
 }
 
+h1 {
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 275%;
+    padding-bottom: 2%;
+}
+
+h2 {
+    font-family: 'IM Fell Double Pica', sans-serif;
+    font-size: 150%;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 .add-padding {
-    padding: 5%;
+    padding: 2% 2%;
 }
 
 .header {
-    padding: 10% 0 0 0;
-    background-color: #7393a7;
+    padding: 10% 0 5% 0;
+    background-color: #88aabf;
 }
 
 .pfp {
@@ -22,16 +37,16 @@ body {
 
 .projects-experience {
     text-align: center;
+    background-color: #88aabf;
 }
 
 .resume {
     text-align: center;
-    background-color: #7393a7;
 }
 
 .socials {
     text-align: center;
-    background-color: #6c737e;
+    background-color: #7699a3;
 }
 
 .projcol1 {
