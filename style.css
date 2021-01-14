@@ -58,11 +58,45 @@ p {
 }
 
 .projcol1 {
-    margin-right: auto;
-    margin-left: auto;
+    float: right;
+    padding-right: 10%;
 }
 
 .projcol2 {
-    margin-right: auto;
-    margin-left: auto;
+    float: left;
+    padding-left: 10%;
+}
+
+.shadow {
+    border-radius: 3%;
+    animation: shadowanimsecond 0.05s forwards;
+}
+
+.shadow:hover{
+    border-radius: 3%;
+    animation: shadowanimfirst 0.05s forwards;
+}
+
+@keyframes shadowanimfirst {
+    0%{
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-8px, -8px);
+        box-shadow: 8px 8px 4px #122440;
+    }
+}
+
+@keyframes shadowanimsecond {
+    0%{
+        transform: translate(-8px, -8px);
+        box-shadow: 8px 8px 4px #122440;
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+b{
+    font-size: 16px;
 }
