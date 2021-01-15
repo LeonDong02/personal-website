@@ -59,10 +59,12 @@ p {
 
 .projcol1 {
     float: right;
+    background-color: #88aabf;
 }
 
 .projcol2 {
     float: left;
+    background-color: #88aabf;
 }
 
 .shadow {
