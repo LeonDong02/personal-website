@@ -1,10 +1,10 @@
 <!--
     todo:
     fix pfp squeezing when page is resized
-    add navbar
-        name (left, rest on right)
-        about (home)
-        blog
+    navbar
+        add links to navbar
+        bold page that user is currently on
+        change color of text when hovering
     projects list
 -->
 
@@ -27,8 +27,19 @@
     <body>
         <div class="nav">
             <div class="columns">
-                <div class="column is-2 name">
-                    <h1>Leon Dong</h1>
+                <div class="column is-2 is-offset-7 nav-color">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="nav-text">
+                                <h1>About</h1>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="nav-text">
+                                <h1>Blog</h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,6 +93,11 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                        <h1>test</h1>
                     </div>
                 </div>
             </div>
