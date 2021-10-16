@@ -1,91 +1,14 @@
-body {
-    background-color: #b5cfd8;
-    color: #313638;
+.parent-div{
+    padding-top: 7vh;
 }
 
-h1 {
-    font-family: 'Droid Serif', sans-serif;
-    font-size: 275%;
-    padding-bottom: 2%;
+.nav{
+    height: 7vh;
+    background-image: linear-gradient(60deg, plum, powderblue)
 }
 
-h2 {
-    font-family: 'IM Fell Double Pica', sans-serif;
-    font-size: 150%;
-}
-
-p {
-    font-family: 'Libre Franklin', sans-serif;
-}
-
-.add-padding {
-    padding: 2% 2%;
-}
-
-.header {
-    padding: 10% 0 5% 0;
-    background-color: #88aabf;
-}
-
-.intro {
-    padding: 3% 3%;
-}
-
-.pfp {
-    float: right;
-}
-
-.text {
-    margin: 0 25% 0 0;
-}
-
-.projects-experience {
-    text-align: center;
-    background-color: #88aabf;
-}
-
-.images-project {
-    mask-image: url(images/tempfiller.jpg);
-}
-
-.resume {
-    text-align: center;
-}
-
-.socials {
-    text-align: center;
-    background-color: #7699a3;
-}
-
-.projcol1 {
-    float: right;
-    background-color: #88aabf;
-}
-
-.projcol2 {
-    float: left;
-    background-color: #88aabf;
-}
-
-.shadow {
-    border-radius: 3%;
-}
-
-.shadow:hover{
-    border-radius: 3%;
-    animation: shadowanimfirst 0.05s forwards;
-}
-
-@keyframes shadowanimfirst {
-    0%{
-        transform: translate(0);
-    }
-    100% {
-        transform: translate(-2px, -2px);
-        box-shadow: 2px 2px 1px #122440;
-    }
-}
-
-b{
-    font-size: 16px;
+.pfp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
